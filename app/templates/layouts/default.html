@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style type="text/css">
+
+    .button_example{
+    border:1px solid #B7B7B7;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #D3D3D3;
+    }
+
+    .button_example:hover{
+    border:1px solid #B7B7B7;
+    text-align: center;
+    color: #1f1f1f;
+    background-color: #ffffff;
+    }
+    </style>
+    <title>Stratus</title>
+    <meta name="description" content="Dashboard for AI Startus with Argon Design crafted by Mohit Varikuti and coded in Flask with SQLite database, ORM and authentication.">
+
+    {% include 'includes/header.html' %}
+
+  </head>
+
+<body>
+
+  {% include 'includes/sidenav.html' %}
+
+  {{ content | safe }}
+
+  {% include 'includes/scripts.html' %}
+
+</body>
+
+</html>
+
+
+
+
